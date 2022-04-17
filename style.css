@@ -1,0 +1,23 @@
+a[href^="https://www.google.com"] {
+    color: green;
+}
+a[href^="https://www.link"] {
+    color: red;
+}
+
+#second-div :nth-child(even) { 
+    
+    color: red;
+}
+#second-div :nth-child(2n+3) { 
+    
+    color: blue;
+}
+#first-div > p::after {
+    content: "-NEW";
+    color: yellow;
+}
+p:nth-child(2n+8):hover {
+    font-style: italic;
+
+}
